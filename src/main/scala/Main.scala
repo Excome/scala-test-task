@@ -1,7 +1,7 @@
 package com.excome
 
 object Main {
-  def main(args: Array[String]) {
+  def main(args: Array[String]): Unit =  {
     val item1 = new Item(1, "Item 1", None)
     val item2 = new Item(2, "Item 2", Some(8))
     val item3 = new Item(3, "Item 3", Some(3))
